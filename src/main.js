@@ -70,4 +70,13 @@ import ComputedAttribute from './playground/base/ComputedAttribute.vue'
 
 // Class 与 Style 绑定
 import ClassAndStyleBind from './playground/base/ClassAndStyleBind.vue' 
-createApp(ClassAndStyleBind).mount('#app')
+// createApp(ClassAndStyleBind).mount('#app')
+
+// 条件渲染
+import IfRende from './playground/base/IfAndForRende.vue' 
+// createApp(IfRende).mount('#app')
+
+
+// 事件处理
+import EventHandler from './playground/base/EventHandler.vue' 
+createApp(EventHandler).mount('#app')
