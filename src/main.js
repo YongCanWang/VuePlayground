@@ -79,4 +79,8 @@ import IfRende from './playground/base/IfAndForRende.vue'
 
 // 事件处理
 import EventHandler from './playground/base/EventHandler.vue' 
-createApp(EventHandler).mount('#app')
+// createApp(EventHandler).mount('#app')
+
+
+import FormInputBind from './playground/base/FormInputBind.vue' 
+createApp(FormInputBind).mount('#app')
