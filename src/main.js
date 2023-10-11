@@ -73,8 +73,8 @@ import ClassAndStyleBind from './playground/base/ClassAndStyleBind.vue'
 // createApp(ClassAndStyleBind).mount('#app')
 
 // 条件渲染
-import IfRende from './playground/base/IfAndForRende.vue' 
-// createApp(IfRende).mount('#app')
+import IfAndForRende from './playground/base/IfAndForRende.vue' 
+// createApp(IfAndForRende).mount('#app')
 
 
 // 事件处理
@@ -82,5 +82,22 @@ import EventHandler from './playground/base/EventHandler.vue'
 // createApp(EventHandler).mount('#app')
 
 
+// 表单输入绑定
 import FormInputBind from './playground/base/FormInputBind.vue' 
-createApp(FormInputBind).mount('#app')
+// createApp(FormInputBind).mount('#app')
+
+// 生命周期
+import LifecycleHook from './playground/base/LifecycleHook.vue' 
+// createApp(LifecycleHook).mount('#app')
+
+// 侦听器
+import Watch from './playground/base/Watch.vue' 
+// createApp(Watch).mount('#app')
+
+//模版引用
+import TemplateRef from './playground/base/Template-ref.vue' 
+// createApp(TemplateRef).mount('#app')
+
+// 组件基础
+import ComponentsBase from './playground/base/ComponentsBase.vue' 
+createApp(ComponentsBase).mount('#app')
